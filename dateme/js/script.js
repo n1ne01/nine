@@ -8,7 +8,7 @@ const noBtn = document.querySelector('.no-btn');
 const wrapperRect = wrapper.getBoundingClientRect();
 const noBtnRect = noBtn.getBoundingClientRect();
 yesBtn.addEventListener('click', () => {
-    question.innerHTML = 'Yesssss ♡';
+    question.innerHTML = 'I knew you would say yes, see you tomorrow at 6:30pm at Shangri-La';
     btngroup.classList.add('remove');
     icon.classList.add('remove');
     heart.classList.add('active');
